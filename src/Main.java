@@ -8,5 +8,7 @@ public class Main {
         boss1.setDamage(30);
         boss1.setSuperPower("SuperJump");
         boss1.setTypeDefence("Бронижелет");
+        boss1.setWeapon("fire", "gun");
+        System.out.println("Boss: " + boss1.getHealth() +  " " + boss1.getDamage() + " " + boss1.getTypeDefence() + " " + boss1.getSuperPower());
     }
 }
