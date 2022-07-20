@@ -21,5 +21,4 @@ public class Weapon {
         this.nameOfWeapon = nameOfWeapon;
     }
 
-
 }
