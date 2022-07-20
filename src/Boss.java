@@ -5,8 +5,11 @@ public class Boss extends GameEntity {
         return WeaponBoss;
     }
 
-    public void setWeaponBoss(Weapon weaponBoss) {
-        WeaponBoss = weaponBoss;
+    public void setWeapon(Weapon Weapon) {
+        Weapon = WeaponBoss;
+    }
+
+    public void setWeapon(String fire, String gun) {
     }
 }
 
