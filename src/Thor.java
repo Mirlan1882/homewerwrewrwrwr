@@ -18,13 +18,6 @@ public class Thor extends Hero{
     public void applySuperPower(Boss boss, Hero[] heroes) {
         boolean trueFalseDeafening = RPG_Game.random.nextBoolean();
         this.setDeafening(trueFalseDeafening);
-        for (int i = 0; i < heroes.length; i++) {
-            if(heroes[i].getHealth() > 0 && this == heroes[i] && this.isDeafening() == true){
-                boss.setDamage(0);
-            } else {
-                boss.setDamage(50);
+
             }
         }
-
-    }
-}
